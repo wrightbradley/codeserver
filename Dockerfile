@@ -22,7 +22,7 @@ RUN curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master
   && ./get_helm.sh
 
 # Install Hugo
-ENV HUGO_VERSION=8.82.0
+ENV HUGO_VERSION=0.82.0
 RUN curl -LO "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-ARM64.tar.gz" \
   && sudo tar -C /usr/local -xzf hugo_${HUGO_VERSION}_Linux-ARM64.tar.gz
 
