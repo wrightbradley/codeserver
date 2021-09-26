@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: codercom/code-server
-  tag: '3.8.1'
+  repository: ghcr.io/the-wright-engineer/codeserver/codeserver
+  tag: 'sha-283208f@sha256:a373d75072482fad6feddf2f6eb2ab93f31666899a4bc5dd1d7de1bbbadaf333'
   pullPolicy: Always
 
 imagePullSecrets: []
